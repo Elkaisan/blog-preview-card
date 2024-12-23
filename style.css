@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+  background-color: var(--color-yellow);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+/* ------ DESIGN SYSTEMS ------ */
+
+:root {
+  /* --- colors --- */
+  --color-yellow: hsl(47, 88%, 63%);
+  --color-gray-950: hsl(0, 0%, 7%);
+  --color-gray-500: hsl(0, 0%, 42%);
+  --color-white: hsl(0, 0%, 100%);
+  /* --- spacing --- */
+  --spacing-300: 1.5rem;
+  --spacing-150: 0.75rem;
+  --spacing-100: 0.5rem;
+  --spacing-50: 0.25rem;
+}
+
+/* --- fonts --- */
+.text-preset-1 {
+  font-family: "Figtree", sans-serif;
+  line-height: 150%;
+  font-size: 1.5rem;
+  color: var(--color-gray-950);
+}
+.text-preset-2 {
+  font-family: "Figtree", sans-serif;
+  line-height: 150%;
+  font-size: 1rem;
+  color: var(--color-gray-500);
+}
+.text-preset-3 {
+  font-family: "Figtree", sans-serif;
+  line-height: 150%;
+  font-size: 0.875rem;
+  color: var(--color-gray-950);
+}
+.text-preset-3-bold {
+  font-family: "Figtree", sans-serif;
+  line-height: 150%;
+  font-weight: 800;
+  font-size: 0.875rem;
+  color: var(--color-gray-950);
+}
+
+/* --- STYLES --- */
+
+main {
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  padding: var(--spacing-300);
+  height: 32.625rem;
+  width: 24rem;
+  border-radius: 1.25rem;
+  border: 1px solid var(--color-gray-950);
+  box-shadow: 6px 8px 0px 2px var(--color-gray-950);
+  transition: 0.3s;
+}
+
+/* --- content --- */
+
+main .blog-image {
+  margin-bottom: var(--spacing-300);
+  border-radius: 0.625rem;
+}
+
+button {
+  background-color: var(--color-yellow);
+  border: none;
+  color: var(--color-gray-950);
+  font-family: "Figtree", sans-serif;
+  padding: var(--spacing-50) var(--spacing-150);
+  border-radius: 0.25rem;
+}
+
+main .content .date {
+  margin: var(--spacing-150) 0;
+}
+
+main .content .description {
+  margin-top: var(--spacing-150);
+}
+
+/* --- author --- */
+.author {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-150);
+  margin-top: var(--spacing-300);
+  max-height: fit-content;
+}
+
+/* --- HOVER EFFECTS --- */
+
+main:hover {
+  box-shadow: 12px 14px 0px 2px var(--color-gray-950);
+  transition: all 0.3s ease-in-out;
+}
+
+main:hover h1 {
+  color: var(--color-yellow);
+  transition: all 0.3s ease-in-out;
+}
