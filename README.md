@@ -1,14 +1,14 @@
 # Frontend Mentor - QR code component
 
-![resim](https://github.com/user-attachments/assets/75deb0bb-5261-4041-8e9a-1bf787128839)
+![blog-card-preview](https://github.com/user-attachments/assets/5492bdc3-206e-4a63-9820-96c12f898a3d)
 
 ## Welcome! 👋
 
-The QR code component project is a simple yet effective way to practice basic HTML and CSS skills. It involves creating a static card design with a QR code and text, focusing on accurately replicating the layout and styling. It's a great starting point for beginners to strengthen their understanding of structure and design principles.
+This project is a modern Blog Preview Card design. It is created using HTML and CSS and features a card structure used to showcase a blog post. The card includes a title, description, date, and author information, with a minimalist and responsive design. Hover effects and responsive design provide an aesthetically pleasing user experience.
 
 Thanks for checking out this front-end coding challenge.
 
-[![LIVE](https://img.shields.io/badge/LIVE-FFB6A4?style=for-the-badge&logo=github&logoColor=white)](https://elkaisan.github.io/qr-code-component-main/)
+[![LIVE](https://img.shields.io/badge/LIVE-FFB6A4?style=for-the-badge&logo=github&logoColor=white)](https://elkaisan.github.io/blog-preview-card/)
 
 ## Build With
 
@@ -22,3 +22,5 @@ I hope these resources help you as much as they have helped me!
 
 - [Figma](https://www.figma.com) - A powerful tool for quickly creating designs, prototyping, and making UI adjustments.
 - [CSS-Tricks](https://css-tricks.com) - Provides techniques, tips, and guides on CSS, offering in-depth knowledge on styling and design.
+- [Google Fonts](https://fonts.google.com/) - A collection of open-source fonts that can be easily integrated into web projects for enhanced typography and design.
+- [Box Shadow Generator](https://html-css-js.com/css/generator/box-shadow/) - A tool for generating customizable CSS box-shadow styles quickly, offering a simple and intuitive interface for design adjustments.
